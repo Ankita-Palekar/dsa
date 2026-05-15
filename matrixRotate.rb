@@ -1,4 +1,4 @@
-
+m
 def transposeofmat(matrix)
     rows = matrix.length
   cols = matrix[0].length
@@ -12,7 +12,10 @@ def transposeofmat(matrix)
     end
   end
   
-  puts result 
+
+#   for rotation of the array we are reversing here. if the transpose of the matxis needs to
+#  be taken it can be taken before this step
+ puts result.reverse()
 
 end 
 
