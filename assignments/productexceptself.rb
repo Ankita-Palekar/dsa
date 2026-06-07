@@ -33,4 +33,4 @@ end
 
 
 
-product_except_self([4,3,2,1,2])
+puts(product_except_self([4,3,2,1,2]))
